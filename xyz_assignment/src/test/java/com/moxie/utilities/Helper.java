@@ -15,7 +15,7 @@ public class Helper {
 	public String captureScreenshot(WebDriver driver) 
 	{
 		File src =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		String screenshotpath= System.getProperty("user.dir")+"/Screenshot/Moxie_"+getCurrentDateTime()+".png";
+		String screenshotpath= ".//Screenshot/"+ new ConfigDataProvider().getBrowser()+ "_"+getCurrentDateTime()+new ConfigDataProvider().getType()+ "_" +"moxie.png";
 		try {
 		
 			FileHandler.copy(src, new File(screenshotpath));

@@ -18,6 +18,7 @@ import com.moxie.pages.BookingPageAfterLogin;
 import com.moxie.pages.DerivedPage;
 import com.moxie.pages.HomePage;
 import com.moxie.utilities.ConfigDataProvider;
+import com.moxie.utilities.Helper;
 
 public class MoxieChangeTime extends BaseClass {
 
@@ -60,15 +61,8 @@ public class MoxieChangeTime extends BaseClass {
 		BookingPageAfterLogin page= new BookingPageAfterLogin(driver);
 		page.selectTime();
 		page.enterTimezone(config.getTimeZone());
-
-		File scr= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		
-		try {
-			FileHandler.copy(scr, new File(".//Screenshot/"+ config.getBrowser()+ "_"+config.getType()+ "_" +"moxie.png"));
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		new Helper().captureScreenshot(driver);
 		
 		Assert.assertEquals(page.verifyTimeZone(config.getTimeZone()), true);
 	}

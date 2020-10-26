@@ -42,5 +42,9 @@ public class BookingPageAfterLogin {
 		return false;
 	}
 	
+	public String getModifiedTime() {
+		return selectTime.getText();
+	}
+	
 
 }

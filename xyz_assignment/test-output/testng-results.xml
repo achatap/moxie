@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-26T05:47:30 IST" name="Default suite" finished-at="2020-10-26T05:49:43 IST" duration-ms="133604">
+    <groups>
+    </groups>
+    <test started-at="2020-10-26T05:47:30 IST" name="Default test" finished-at="2020-10-26T05:49:43 IST" duration-ms="133604">
+      <class name="com.moxie.tastcases.MoxieChangeTime">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@43acd79e]" started-at="2020-10-26T05:47:30 IST" name="setup" finished-at="2020-10-26T05:48:18 IST" duration-ms="47664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkTypeIsWorking()[pri:1, instance:com.moxie.tastcases.MoxieChangeTime@43acd79e]" started-at="2020-10-26T05:48:18 IST" name="checkTypeIsWorking" finished-at="2020-10-26T05:48:28 IST" duration-ms="10537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTypeIsWorking -->
+        <test-method signature="selectFirstFlexPay()[pri:2, instance:com.moxie.tastcases.MoxieChangeTime@43acd79e]" started-at="2020-10-26T05:48:28 IST" name="selectFirstFlexPay" finished-at="2020-10-26T05:49:28 IST" duration-ms="59739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFirstFlexPay -->
+        <test-method signature="loginForBookingPage()[pri:3, instance:com.moxie.tastcases.MoxieChangeTime@43acd79e]" started-at="2020-10-26T05:49:28 IST" name="loginForBookingPage" finished-at="2020-10-26T05:49:38 IST" duration-ms="10246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginForBookingPage -->
+        <test-method signature="changeTimeZone()[pri:4, instance:com.moxie.tastcases.MoxieChangeTime@43acd79e]" started-at="2020-10-26T05:49:38 IST" name="changeTimeZone" finished-at="2020-10-26T05:49:43 IST" duration-ms="4421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeTimeZone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@43acd79e]" started-at="2020-10-26T05:49:43 IST" name="tearDown" finished-at="2020-10-26T05:49:43 IST" duration-ms="838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.moxie.tastcases.MoxieChangeTime -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

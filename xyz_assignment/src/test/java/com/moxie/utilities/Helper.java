@@ -6,25 +6,21 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import org.openqa.selenium.io.FileHandler;
+
+import com.moxie.pages.BaseClass;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
-public class Helper {
+public class Helper{
 	
-	public String captureScreenshot(WebDriver driver) 
+	public String captureScreenshot(WebDriver driver) throws IOException 
 	{
-		File src =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		String screenshotpath= ".//Screenshot/"+ new ConfigDataProvider().getBrowser()+ "_"+getCurrentDateTime()+new ConfigDataProvider().getType()+ "_" +"moxie.png";
-		try {
 		
-			FileHandler.copy(src, new File(screenshotpath));
-				
-			
-		} catch (IOException e) {
-			
-			System.out.println("Unable to capture screenshot"+e.getMessage());
-		}
+		File src =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		String screenshotpath= System.getProperty("user.dir")+"\\Screenshot\\"+ getCurrentDateTime()+"_" +"_moxie.png";
+		FileHandler.copy(src, new File(screenshotpath));
 		return screenshotpath;
 		
 	}

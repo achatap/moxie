@@ -13,12 +13,10 @@ WebDriver driver;
 	public HomePage(WebDriver ldriver)
 	{
 		this.driver=ldriver;
-		PageFactory.initElements(driver, this);	
-		
+		PageFactory.initElements(driver, this);		
 	}
 	
 	@FindBy(xpath="//span[text()='TYPE']") WebElement typeButton;
-	
 	@FindBy(xpath="//span[text()='TYPE']") WebElement doneButton;
 	
 	public void selectFilter(String type) {

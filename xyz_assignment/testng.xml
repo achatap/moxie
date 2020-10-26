@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Suite" parallel="tests" thread-count="3">
 
-	<test name="chrome">
+<test name="chrome">
 		<parameter name="browser" value="chrome" />
-		<parameter name="type" value="DANCE" />
+		<parameter name="rowNumber" value="1" />
 		<classes>
 			<class name="com.moxie.tastcases.MoxieChangeTime" />
 		</classes>
 	</test>
-
 	<test name="firefox">
 		<parameter name="browser" value="firefox" />
-		<parameter name="type" value="BOXING" />
-
+		<parameter name="rowNumber" value="1" />
 		<classes>
 			<class name="com.moxie.tastcases.MoxieChangeTime" />
 		</classes>
 	</test>
-
 	<test name="edge">
 		<parameter name="browser" value="edge" />
-		<parameter name="type" value="YOGA" />
+		<parameter name="rowNumber" value="1" />
 		<classes>
 			<class name="com.moxie.tastcases.MoxieChangeTime" />
 		</classes>
 	</test>
+	
+	
+
 </suite>

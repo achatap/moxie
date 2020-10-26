@@ -59,6 +59,11 @@ public class ConfigDataProvider {
 		return pro.getProperty("Timezone");
 	}
 	
+	public String getRowNumber()
+	{
+		return pro.getProperty("RowNumber");
+	}
+	
 	
 
 }

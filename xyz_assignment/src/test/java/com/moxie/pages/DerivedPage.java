@@ -9,11 +9,9 @@ public class DerivedPage {
 	
 	WebDriver driver;
 
-	public DerivedPage(WebDriver ldriver)
-	{
+	public DerivedPage(WebDriver ldriver)	{
 		this.driver=ldriver;
 		PageFactory.initElements(driver, this);	
-		
 	}
 	
 	@FindBy(xpath = "//div[contains(text(),'FLEX')]") WebElement firstFlexPayClass;

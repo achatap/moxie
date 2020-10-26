@@ -3,13 +3,6 @@
 
 <suite name="Suite" parallel="tests" thread-count="3">
 
-<test name="chrome">
-		<parameter name="browser" value="chrome" />
-		<parameter name="rowNumber" value="1" />
-		<classes>
-			<class name="com.moxie.tastcases.MoxieChangeTime" />
-		</classes>
-	</test>
 	<test name="firefox">
 		<parameter name="browser" value="firefox" />
 		<parameter name="rowNumber" value="1" />
@@ -17,6 +10,14 @@
 			<class name="com.moxie.tastcases.MoxieChangeTime" />
 		</classes>
 	</test>
+	<test name="chrome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="rowNumber" value="1" />
+		<classes>
+			<class name="com.moxie.tastcases.MoxieChangeTime" />
+		</classes>
+	</test>
+
 	<test name="edge">
 		<parameter name="browser" value="edge" />
 		<parameter name="rowNumber" value="1" />
@@ -24,7 +25,7 @@
 			<class name="com.moxie.tastcases.MoxieChangeTime" />
 		</classes>
 	</test>
-	
-	
+
+
 
 </suite>

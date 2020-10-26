@@ -13,9 +13,6 @@ import com.moxie.utilities.ConfigDataProvider;
 public class BookingPage {
 
 	WebDriver driver;
-	//	WebDriverWait wait = new WebDriverWait(driver,  Integer.parseInt(new ConfigDataProvider().getExplicitTime()));
-
-
 	WebDriverWait wait ;
 
 	public BookingPage(WebDriver driver) {

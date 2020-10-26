@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Oct 26 17:20:25 IST 2020</td>
+<td>Started on:</td><td>Mon Oct 26 17:27:43 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>188 seconds (188695 ms)</td>
+<tr><td>Total time:</td><td>249 seconds (249918 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,40 +75,76 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.moxie.tastcases.MoxieChangeTime.loginForBookingPage()'><b>loginForBookingPage</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
-<a href="#Output-1854421050" onClick='toggleBox("Output-1854421050", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.moxie.tastcases.MoxieChangeTime.changeTimeZone()'><b>changeTimeZone</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
+<a href="#Output-980418597" onClick='toggleBox("Output-980418597", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1854421050" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1854421050">
-Running third test for successful login<br/>
+<a href="#Output-980418597" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-980418597">
+Running fourth test for changing timezone<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[FirefoxDriver: firefox on WINDOWS (0a46b52e-64c9-4d40-a7f7-b50b211b550e)] -&gt; xpath: //div[contains(text(),&apos;achatapnew@gmail.com&apos;)]] (tried for 5 second(s) with 500 milliseconds interval)
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: The element reference of &lt;div class=&quot;filter-option-inner&quot;&gt; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-M9NR2LIP&apos;, ip: &apos;192.168.43.249&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 82.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201014125134, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 14092, moz:profile: C:\Users\achat\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0a46b52e-64c9-4d40-a7f7-b50b211b550e
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.moxie.pages.BookingPage.emailPresentOnPage(BookingPage.java:63)
-	at com.moxie.tastcases.MoxieChangeTime.loginForBookingPage(MoxieChangeTime.java:70)
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 82.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201014125134, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 11552, moz:profile: C:\Users\achat\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a202294a-f3af-40da-87db-2eb968b4bae2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy16.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.moxie.pages.BookingPageAfterLogin.enterTimezone(BookingPageAfterLogin.java:35)
+	at com.moxie.tastcases.MoxieChangeTime.changeTimeZone(MoxieChangeTime.java:86)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:830)
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1854421050", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1854421050'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[FirefoxDriver: firefox on WINDOWS (0a46b52e-64c9-4d40-a7f7-b50b211b550e)] -&gt; xpath: //div[contains(text(),&apos;achatapnew@gmail.com&apos;)]] (tried for 5 second(s) with 500 milliseconds interval)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace980418597", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace980418597'><pre>org.openqa.selenium.StaleElementReferenceException: The element reference of &lt;div class=&quot;filter-option-inner&quot;&gt; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-M9NR2LIP&apos;, ip: &apos;192.168.43.249&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 82.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201014125134, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 14092, moz:profile: C:\Users\achat\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0a46b52e-64c9-4d40-a7f7-b50b211b550e
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.moxie.pages.BookingPage.emailPresentOnPage(BookingPage.java:63)
-	at com.moxie.tastcases.MoxieChangeTime.loginForBookingPage(MoxieChangeTime.java:70)
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 82.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201014125134, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 11552, moz:profile: C:\Users\achat\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a202294a-f3af-40da-87db-2eb968b4bae2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+	at jdk.internal.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy16.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.moxie.pages.BookingPageAfterLogin.enterTimezone(BookingPageAfterLogin.java:35)
+	at com.moxie.tastcases.MoxieChangeTime.changeTimeZone(MoxieChangeTime.java:86)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -133,8 +169,100 @@ Session ID: 0a46b52e-64c9-4d40-a7f7-b50b211b550e
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:830)
 </pre></div></td>
-<td>14</td>
-<td>com.moxie.tastcases.MoxieChangeTime@5cee5251</td></tr>
+<td>1</td>
+<td>com.moxie.tastcases.MoxieChangeTime@52a33c3f</td></tr>
+<tr>
+<td title='com.moxie.tastcases.MoxieChangeTime.loginForBookingPage()'><b>loginForBookingPage</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
+<a href="#Output-1514611285" onClick='toggleBox("Output-1514611285", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1514611285" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1514611285">
+Running third test for successful login<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;email&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-M9NR2LIP&apos;, ip: &apos;192.168.43.249&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 82.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201014125134, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 11552, moz:profile: C:\Users\achat\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a202294a-f3af-40da-87db-2eb968b4bae2
+*** Element info: {Using=name, value=email}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
+	at com.moxie.pages.BookingPage.EnterEmailid(BookingPage.java:43)
+	at com.moxie.tastcases.MoxieChangeTime.loginForBookingPage(MoxieChangeTime.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1514611285", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1514611285'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;email&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-M9NR2LIP&apos;, ip: &apos;192.168.43.249&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 82.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201014125134, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 11552, moz:profile: C:\Users\achat\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a202294a-f3af-40da-87db-2eb968b4bae2
+*** Element info: {Using=name, value=email}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
+	at com.moxie.pages.BookingPage.EnterEmailid(BookingPage.java:43)
+	at com.moxie.tastcases.MoxieChangeTime.loginForBookingPage(MoxieChangeTime.java:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+</pre></div></td>
+<td>43</td>
+<td>com.moxie.tastcases.MoxieChangeTime@52a33c3f</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -145,88 +273,124 @@ Session ID: 0a46b52e-64c9-4d40-a7f7-b50b211b550e
 </tr>
 <tr>
 <td title='com.moxie.tastcases.MoxieChangeTime.changeTimeZone()'><b>changeTimeZone</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
-<a href="#Output-1758699892" onClick='toggleBox("Output-1758699892", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1785028598" onClick='toggleBox("Output-1785028598", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1758699892" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1758699892">
+<a href="#Output-1785028598" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1785028598">
 Running fourth test for changing timezone<br/>
 </div>
 </td>
 <td></td>
-<td>11</td>
-<td>com.moxie.tastcases.MoxieChangeTime@5cee5251</td></tr>
+<td>3</td>
+<td>com.moxie.tastcases.MoxieChangeTime@40fa8766</td></tr>
 <tr>
 <td title='com.moxie.tastcases.MoxieChangeTime.changeTimeZone()'><b>changeTimeZone</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
-<a href="#Output-510281373" onClick='toggleBox("Output-510281373", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-3293191" onClick='toggleBox("Output-3293191", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-510281373" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-510281373">
+<a href="#Output-3293191" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3293191">
 Running fourth test for changing timezone<br/>
 </div>
 </td>
 <td></td>
 <td>2</td>
-<td>com.moxie.tastcases.MoxieChangeTime@1a04f701</td></tr>
+<td>com.moxie.tastcases.MoxieChangeTime@3456558</td></tr>
 <tr>
 <td title='com.moxie.tastcases.MoxieChangeTime.checkTypeIsWorking()'><b>checkTypeIsWorking</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
-<a href="#Output-1091739079" onClick='toggleBox("Output-1091739079", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-887893366" onClick='toggleBox("Output-887893366", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1091739079" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1091739079">
+<a href="#Output-887893366" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-887893366">
 Running first test for Type check<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>com.moxie.tastcases.MoxieChangeTime@5cee5251</td></tr>
+<td>com.moxie.tastcases.MoxieChangeTime@40fa8766</td></tr>
 <tr>
 <td title='com.moxie.tastcases.MoxieChangeTime.checkTypeIsWorking()'><b>checkTypeIsWorking</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
-<a href="#Output-284938051" onClick='toggleBox("Output-284938051", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1008282485" onClick='toggleBox("Output-1008282485", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-284938051" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-284938051">
+<a href="#Output-1008282485" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1008282485">
 Running first test for Type check<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>com.moxie.tastcases.MoxieChangeTime@1a04f701</td></tr>
+<td>com.moxie.tastcases.MoxieChangeTime@3456558</td></tr>
+<tr>
+<td title='com.moxie.tastcases.MoxieChangeTime.checkTypeIsWorking()'><b>checkTypeIsWorking</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
+<a href="#Output-1230256880" onClick='toggleBox("Output-1230256880", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1230256880" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1230256880">
+Running first test for Type check<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.moxie.tastcases.MoxieChangeTime@52a33c3f</td></tr>
 <tr>
 <td title='com.moxie.tastcases.MoxieChangeTime.loginForBookingPage()'><b>loginForBookingPage</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
-<a href="#Output-1315226430" onClick='toggleBox("Output-1315226430", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1122920412" onClick='toggleBox("Output-1122920412", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1315226430" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1315226430">
+<a href="#Output-1122920412" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1122920412">
 Running third test for successful login<br/>
 </div>
 </td>
 <td></td>
-<td>18</td>
-<td>com.moxie.tastcases.MoxieChangeTime@1a04f701</td></tr>
+<td>25</td>
+<td>com.moxie.tastcases.MoxieChangeTime@40fa8766</td></tr>
+<tr>
+<td title='com.moxie.tastcases.MoxieChangeTime.loginForBookingPage()'><b>loginForBookingPage</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
+<a href="#Output-164292889" onClick='toggleBox("Output-164292889", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-164292889" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-164292889">
+Running third test for successful login<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>com.moxie.tastcases.MoxieChangeTime@3456558</td></tr>
 <tr>
 <td title='com.moxie.tastcases.MoxieChangeTime.selectFirstFlexPay()'><b>selectFirstFlexPay</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
-<a href="#Output-278189573" onClick='toggleBox("Output-278189573", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-294744820" onClick='toggleBox("Output-294744820", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-278189573" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-278189573">
+<a href="#Output-294744820" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-294744820">
 Running second test for finding first class with Flex pay option<br/>
 </div>
 </td>
 <td></td>
-<td>72</td>
-<td>com.moxie.tastcases.MoxieChangeTime@5cee5251</td></tr>
+<td>73</td>
+<td>com.moxie.tastcases.MoxieChangeTime@40fa8766</td></tr>
 <tr>
 <td title='com.moxie.tastcases.MoxieChangeTime.selectFirstFlexPay()'><b>selectFirstFlexPay</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
-<a href="#Output-971995788" onClick='toggleBox("Output-971995788", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1878721707" onClick='toggleBox("Output-1878721707", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-971995788" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-971995788">
+<a href="#Output-1878721707" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1878721707">
 Running second test for finding first class with Flex pay option<br/>
 </div>
 </td>
 <td></td>
-<td>29</td>
-<td>com.moxie.tastcases.MoxieChangeTime@1a04f701</td></tr>
+<td>88</td>
+<td>com.moxie.tastcases.MoxieChangeTime@3456558</td></tr>
+<tr>
+<td title='com.moxie.tastcases.MoxieChangeTime.selectFirstFlexPay()'><b>selectFirstFlexPay</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
+<a href="#Output-1666412504" onClick='toggleBox("Output-1666412504", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1666412504" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1666412504">
+Running second test for finding first class with Flex pay option<br/>
+</div>
+</td>
+<td></td>
+<td>60</td>
+<td>com.moxie.tastcases.MoxieChangeTime@52a33c3f</td></tr>
 </table><p>
 </body>
 </html>

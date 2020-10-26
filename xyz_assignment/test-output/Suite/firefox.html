@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>firefox</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Oct 26 17:20:25 IST 2020</td>
+<td>Started on:</td><td>Mon Oct 26 19:16:55 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>158 seconds (158349 ms)</td>
+<tr><td>Total time:</td><td>169 seconds (169142 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,75 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.moxie.tastcases.MoxieChangeTime.loginForBookingPage()'><b>loginForBookingPage</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
-<a href="#Output-1854421050" onClick='toggleBox("Output-1854421050", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1854421050" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1854421050">
-Running third test for successful login<br/>
-</div>
-</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[FirefoxDriver: firefox on WINDOWS (0a46b52e-64c9-4d40-a7f7-b50b211b550e)] -&gt; xpath: //div[contains(text(),&apos;achatapnew@gmail.com&apos;)]] (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-M9NR2LIP&apos;, ip: &apos;192.168.43.249&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 82.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201014125134, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 14092, moz:profile: C:\Users\achat\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0a46b52e-64c9-4d40-a7f7-b50b211b550e
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.moxie.pages.BookingPage.emailPresentOnPage(BookingPage.java:63)
-	at com.moxie.tastcases.MoxieChangeTime.loginForBookingPage(MoxieChangeTime.java:70)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:830)
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1854421050", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1854421050'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[FirefoxDriver: firefox on WINDOWS (0a46b52e-64c9-4d40-a7f7-b50b211b550e)] -&gt; xpath: //div[contains(text(),&apos;achatapnew@gmail.com&apos;)]] (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-M9NR2LIP&apos;, ip: &apos;192.168.43.249&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 82.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201014125134, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 14092, moz:profile: C:\Users\achat\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0a46b52e-64c9-4d40-a7f7-b50b211b550e
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.moxie.pages.BookingPage.emailPresentOnPage(BookingPage.java:63)
-	at com.moxie.tastcases.MoxieChangeTime.loginForBookingPage(MoxieChangeTime.java:70)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:830)
-</pre></div></td>
-<td>14</td>
-<td>com.moxie.tastcases.MoxieChangeTime@5cee5251</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -145,136 +76,148 @@ Session ID: 0a46b52e-64c9-4d40-a7f7-b50b211b550e
 </tr>
 <tr>
 <td title='com.moxie.tastcases.MoxieChangeTime.changeTimeZone()'><b>changeTimeZone</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
-<a href="#Output-1758699892" onClick='toggleBox("Output-1758699892", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-283384759" onClick='toggleBox("Output-283384759", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1758699892" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1758699892">
-Running fourth test for changing timezone<br/>
-</div>
-</td>
-<td></td>
-<td>11</td>
-<td>com.moxie.tastcases.MoxieChangeTime@5cee5251</td></tr>
-<tr>
-<td title='com.moxie.tastcases.MoxieChangeTime.changeTimeZone()'><b>changeTimeZone</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
-<a href="#Output-510281373" onClick='toggleBox("Output-510281373", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-510281373" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-510281373">
+<a href="#Output-283384759" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-283384759">
 Running fourth test for changing timezone<br/>
 </div>
 </td>
 <td></td>
 <td>2</td>
-<td>com.moxie.tastcases.MoxieChangeTime@1a04f701</td></tr>
+<td>com.moxie.tastcases.MoxieChangeTime@3456558</td></tr>
 <tr>
 <td title='com.moxie.tastcases.MoxieChangeTime.changeTimeZone()'><b>changeTimeZone</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
-<a href="#Output-1459140940" onClick='toggleBox("Output-1459140940", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-531063181" onClick='toggleBox("Output-531063181", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1459140940" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1459140940">
+<a href="#Output-531063181" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-531063181">
 Running fourth test for changing timezone<br/>
 </div>
 </td>
 <td></td>
 <td>2</td>
-<td>com.moxie.tastcases.MoxieChangeTime@78e117e3</td></tr>
+<td>com.moxie.tastcases.MoxieChangeTime@52a33c3f</td></tr>
+<tr>
+<td title='com.moxie.tastcases.MoxieChangeTime.changeTimeZone()'><b>changeTimeZone</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
+<a href="#Output-1841381588" onClick='toggleBox("Output-1841381588", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1841381588" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1841381588">
+Running fourth test for changing timezone<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.moxie.tastcases.MoxieChangeTime@40fa8766</td></tr>
 <tr>
 <td title='com.moxie.tastcases.MoxieChangeTime.checkTypeIsWorking()'><b>checkTypeIsWorking</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
-<a href="#Output-1091739079" onClick='toggleBox("Output-1091739079", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1709151319" onClick='toggleBox("Output-1709151319", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1091739079" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1091739079">
+<a href="#Output-1709151319" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1709151319">
 Running first test for Type check<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>com.moxie.tastcases.MoxieChangeTime@5cee5251</td></tr>
+<td>com.moxie.tastcases.MoxieChangeTime@3456558</td></tr>
 <tr>
 <td title='com.moxie.tastcases.MoxieChangeTime.checkTypeIsWorking()'><b>checkTypeIsWorking</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
-<a href="#Output-48655833" onClick='toggleBox("Output-48655833", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1553903430" onClick='toggleBox("Output-1553903430", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-48655833" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-48655833">
+<a href="#Output-1553903430" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1553903430">
 Running first test for Type check<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>com.moxie.tastcases.MoxieChangeTime@78e117e3</td></tr>
+<td>com.moxie.tastcases.MoxieChangeTime@52a33c3f</td></tr>
 <tr>
 <td title='com.moxie.tastcases.MoxieChangeTime.checkTypeIsWorking()'><b>checkTypeIsWorking</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
-<a href="#Output-284938051" onClick='toggleBox("Output-284938051", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-762673767" onClick='toggleBox("Output-762673767", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-284938051" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-284938051">
+<a href="#Output-762673767" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-762673767">
 Running first test for Type check<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>com.moxie.tastcases.MoxieChangeTime@1a04f701</td></tr>
+<td>com.moxie.tastcases.MoxieChangeTime@40fa8766</td></tr>
 <tr>
 <td title='com.moxie.tastcases.MoxieChangeTime.loginForBookingPage()'><b>loginForBookingPage</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
-<a href="#Output-1315226430" onClick='toggleBox("Output-1315226430", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-370547113" onClick='toggleBox("Output-370547113", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1315226430" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1315226430">
+<a href="#Output-370547113" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-370547113">
 Running third test for successful login<br/>
 </div>
 </td>
 <td></td>
-<td>18</td>
-<td>com.moxie.tastcases.MoxieChangeTime@1a04f701</td></tr>
+<td>21</td>
+<td>com.moxie.tastcases.MoxieChangeTime@3456558</td></tr>
 <tr>
 <td title='com.moxie.tastcases.MoxieChangeTime.loginForBookingPage()'><b>loginForBookingPage</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
-<a href="#Output-425610696" onClick='toggleBox("Output-425610696", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-959779439" onClick='toggleBox("Output-959779439", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-425610696" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-425610696">
+<a href="#Output-959779439" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-959779439">
 Running third test for successful login<br/>
 </div>
 </td>
 <td></td>
-<td>18</td>
-<td>com.moxie.tastcases.MoxieChangeTime@78e117e3</td></tr>
+<td>9</td>
+<td>com.moxie.tastcases.MoxieChangeTime@52a33c3f</td></tr>
+<tr>
+<td title='com.moxie.tastcases.MoxieChangeTime.loginForBookingPage()'><b>loginForBookingPage</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
+<a href="#Output-1224577350" onClick='toggleBox("Output-1224577350", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1224577350" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1224577350">
+Running third test for successful login<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.moxie.tastcases.MoxieChangeTime@40fa8766</td></tr>
 <tr>
 <td title='com.moxie.tastcases.MoxieChangeTime.selectFirstFlexPay()'><b>selectFirstFlexPay</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
-<a href="#Output-278189573" onClick='toggleBox("Output-278189573", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-380978709" onClick='toggleBox("Output-380978709", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-278189573" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-278189573">
+<a href="#Output-380978709" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-380978709">
 Running second test for finding first class with Flex pay option<br/>
 </div>
 </td>
 <td></td>
-<td>72</td>
-<td>com.moxie.tastcases.MoxieChangeTime@5cee5251</td></tr>
+<td>59</td>
+<td>com.moxie.tastcases.MoxieChangeTime@3456558</td></tr>
 <tr>
 <td title='com.moxie.tastcases.MoxieChangeTime.selectFirstFlexPay()'><b>selectFirstFlexPay</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
-<a href="#Output-971995788" onClick='toggleBox("Output-971995788", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1346309088" onClick='toggleBox("Output-1346309088", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-971995788" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-971995788">
+<a href="#Output-1346309088" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1346309088">
 Running second test for finding first class with Flex pay option<br/>
 </div>
 </td>
 <td></td>
-<td>29</td>
-<td>com.moxie.tastcases.MoxieChangeTime@1a04f701</td></tr>
+<td>28</td>
+<td>com.moxie.tastcases.MoxieChangeTime@52a33c3f</td></tr>
 <tr>
 <td title='com.moxie.tastcases.MoxieChangeTime.selectFirstFlexPay()'><b>selectFirstFlexPay</b><br>Test class: com.moxie.tastcases.MoxieChangeTime<br/>
-<a href="#Output-332854404" onClick='toggleBox("Output-332854404", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-618858096" onClick='toggleBox("Output-618858096", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-332854404" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-332854404">
+<a href="#Output-618858096" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-618858096">
 Running second test for finding first class with Flex pay option<br/>
 </div>
 </td>
 <td></td>
-<td>43</td>
-<td>com.moxie.tastcases.MoxieChangeTime@78e117e3</td></tr>
+<td>25</td>
+<td>com.moxie.tastcases.MoxieChangeTime@40fa8766</td></tr>
 </table><p>
 </body>
 </html>

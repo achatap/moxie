@@ -8,6 +8,7 @@
           <include name="setup"/>
           <include name="changeTimeZone"/>
           <include name="tearDown"/>
+          <include name="selectFirstFlexPay"/>
           <include name="loginForBookingPage"/>
         </methods>
       </class> <!-- com.moxie.tastcases.MoxieChangeTime -->

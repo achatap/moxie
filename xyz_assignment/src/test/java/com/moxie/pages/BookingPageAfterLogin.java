@@ -35,11 +35,16 @@ public class BookingPageAfterLogin {
 		wait.until(ExpectedConditions.visibilityOf(selectTime));
 	}
 	
+	
 	public boolean verifyTimeZone(String timezone) {
 		if(selectTime.getText().contains(timezone)) {
 			return true;
 		}
 		return false;
+	}
+	
+	public String getModifiedTime() {
+		return selectTime.getText();
 	}
 	
 

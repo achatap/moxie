@@ -9,6 +9,9 @@
           <include name="changeTimeZone"/>
           <include name="tearDown"/>
           <include name="tearDownMethod"/>
+          <include name="selectFirstFlexPay"/>
+          <include name="loginForBookingPage"/>
+          <include name="checkTypeIsWorking"/>
         </methods>
       </class> <!-- com.moxie.tastcases.MoxieChangeTime -->
     </classes>

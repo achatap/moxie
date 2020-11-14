@@ -16,13 +16,12 @@ WebDriver driver;
 		PageFactory.initElements(driver, this);		
 	}
 	
-	@FindBy(xpath="//span[text()='TYPE']") WebElement typeButton;
-	@FindBy(xpath="//span[text()='TYPE']") WebElement doneButton;
+	@FindBy(xpath="//span[text()='TYPE']") WebElement typeAndDoneButton;
 	
 	public void selectFilter(String type) {
-		typeButton.click();
+		typeAndDoneButton.click();
 		driver.findElement(By.xpath("//span[text()='"+ type + "']")).click();
-		doneButton.click();
+		typeAndDoneButton.click();
 		
 	}
 

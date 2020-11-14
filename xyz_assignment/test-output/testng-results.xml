@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Running first test for Type check]]>
@@ -8,42 +8,18 @@
       <![CDATA[Running second test for finding first class with Flex pay option]]>
     </line>
     <line>
-      <![CDATA[Running first test for Type check]]>
-    </line>
-    <line>
-      <![CDATA[Running second test for finding first class with Flex pay option]]>
-    </line>
-    <line>
       <![CDATA[Running third test for successful login]]>
-    </line>
-    <line>
-      <![CDATA[Running first test for Type check]]>
-    </line>
-    <line>
-      <![CDATA[Running second test for finding first class with Flex pay option]]>
-    </line>
-    <line>
-      <![CDATA[Running fourth test for changing timezone]]>
-    </line>
-    <line>
-      <![CDATA[Running third test for successful login]]>
-    </line>
-    <line>
-      <![CDATA[Running third test for successful login]]>
-    </line>
-    <line>
-      <![CDATA[Running fourth test for changing timezone]]>
     </line>
     <line>
       <![CDATA[Running fourth test for changing timezone]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-10-26T19:16:55 IST" name="Suite" finished-at="2020-10-26T19:20:06 IST" duration-ms="190569">
+  <suite started-at="2020-10-27T12:18:23 IST" name="Suite" finished-at="2020-10-27T12:21:26 IST" duration-ms="183279">
     <groups>
     </groups>
-    <test started-at="2020-10-26T19:16:55 IST" name="firefox" finished-at="2020-10-26T19:19:44 IST" duration-ms="169142">
+    <test started-at="2020-10-27T12:18:23 IST" name="firefox" finished-at="2020-10-27T12:21:26 IST" duration-ms="183279">
       <class name="com.moxie.tastcases.MoxieChangeTime">
-        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@3456558]" started-at="2020-10-26T19:16:55 IST" name="setup" finished-at="2020-10-26T19:18:17 IST" duration-ms="81981" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@1a04f701]" started-at="2020-10-27T12:18:23 IST" name="setup" finished-at="2020-10-27T12:19:33 IST" duration-ms="70342" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,275 +35,217 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkTypeIsWorking()[pri:1, instance:com.moxie.tastcases.MoxieChangeTime@3456558]" started-at="2020-10-26T19:18:17 IST" name="checkTypeIsWorking" finished-at="2020-10-26T19:18:18 IST" duration-ms="764" status="PASS">
+        <test-method signature="checkTypeIsWorking()[pri:1, instance:com.moxie.tastcases.MoxieChangeTime@1a04f701]" started-at="2020-10-27T12:19:33 IST" name="checkTypeIsWorking" finished-at="2020-10-27T12:19:34 IST" duration-ms="918" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Running first test for Type check]]>
             </line>
           </reporter-output>
         </test-method> <!-- checkTypeIsWorking -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@3456558]" started-at="2020-10-26T19:18:18 IST" name="tearDownMethod" finished-at="2020-10-26T19:18:19 IST" duration-ms="1566" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@1a04f701]" started-at="2020-10-27T12:19:34 IST" name="tearDownMethod" finished-at="2020-10-27T12:19:36 IST" duration-ms="1560" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkTypeIsWorking status=SUCCESS method=MoxieChangeTime.checkTypeIsWorking()[pri:1, instance:com.moxie.tastcases.MoxieChangeTime@3456558] output=Running first test for Type check]]]>
+                <![CDATA[[TestResult name=checkTypeIsWorking status=SUCCESS method=MoxieChangeTime.checkTypeIsWorking()[pri:1, instance:com.moxie.tastcases.MoxieChangeTime@1a04f701] output=Running first test for Type check]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method signature="selectFirstFlexPay()[pri:2, instance:com.moxie.tastcases.MoxieChangeTime@3456558]" started-at="2020-10-26T19:18:19 IST" name="selectFirstFlexPay" finished-at="2020-10-26T19:19:19 IST" duration-ms="59780" status="PASS">
+        <test-method signature="selectFirstFlexPay()[pri:2, instance:com.moxie.tastcases.MoxieChangeTime@1a04f701]" started-at="2020-10-27T12:19:36 IST" name="selectFirstFlexPay" finished-at="2020-10-27T12:20:19 IST" duration-ms="43708" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Running second test for finding first class with Flex pay option]]>
             </line>
           </reporter-output>
         </test-method> <!-- selectFirstFlexPay -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@3456558]" started-at="2020-10-26T19:19:19 IST" name="tearDownMethod" finished-at="2020-10-26T19:19:19 IST" duration-ms="222" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@1a04f701]" started-at="2020-10-27T12:20:19 IST" name="tearDownMethod" finished-at="2020-10-27T12:20:20 IST" duration-ms="478" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=selectFirstFlexPay status=SUCCESS method=MoxieChangeTime.selectFirstFlexPay()[pri:2, instance:com.moxie.tastcases.MoxieChangeTime@3456558] output=Running second test for finding first class with Flex pay option]]]>
+                <![CDATA[[TestResult name=selectFirstFlexPay status=SUCCESS method=MoxieChangeTime.selectFirstFlexPay()[pri:2, instance:com.moxie.tastcases.MoxieChangeTime@1a04f701] output=Running second test for finding first class with Flex pay option]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method signature="loginForBookingPage()[pri:3, instance:com.moxie.tastcases.MoxieChangeTime@3456558]" started-at="2020-10-26T19:19:19 IST" name="loginForBookingPage" finished-at="2020-10-26T19:19:41 IST" duration-ms="21126" status="PASS">
+        <test-method signature="loginForBookingPage()[pri:3, instance:com.moxie.tastcases.MoxieChangeTime@1a04f701]" started-at="2020-10-27T12:20:20 IST" name="loginForBookingPage" finished-at="2020-10-27T12:20:44 IST" duration-ms="24142" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: *[name='email1']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-M9NR2LIP', ip: '192.168.43.249', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 82.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201014125134, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 12388, moz:profile: C:\Users\achat\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 114e0370-e328-4a0c-999b-17590325e816
+*** Element info: {Using=name, value=email1}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name='email1']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-M9NR2LIP', ip: '192.168.43.249', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 82.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201014125134, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 12388, moz:profile: C:\Users\achat\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 114e0370-e328-4a0c-999b-17590325e816
+*** Element info: {Using=name, value=email1}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)
+at com.moxie.pages.BookingPage.EnterEmailid(BookingPage.java:41)
+at com.moxie.tastcases.MoxieChangeTime.loginForBookingPage(MoxieChangeTime.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
             <line>
               <![CDATA[Running third test for successful login]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginForBookingPage -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@3456558]" started-at="2020-10-26T19:19:41 IST" name="tearDownMethod" finished-at="2020-10-26T19:19:41 IST" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@1a04f701]" started-at="2020-10-27T12:20:44 IST" name="tearDownMethod" finished-at="2020-10-27T12:20:44 IST" duration-ms="349" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginForBookingPage status=SUCCESS method=MoxieChangeTime.loginForBookingPage()[pri:3, instance:com.moxie.tastcases.MoxieChangeTime@3456558] output=Running third test for successful login]]]>
+                <![CDATA[[TestResult name=loginForBookingPage status=FAILURE method=MoxieChangeTime.loginForBookingPage()[pri:3, instance:com.moxie.tastcases.MoxieChangeTime@1a04f701] output=Running third test for successful login]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method signature="changeTimeZone()[pri:4, instance:com.moxie.tastcases.MoxieChangeTime@3456558]" started-at="2020-10-26T19:19:41 IST" name="changeTimeZone" finished-at="2020-10-26T19:19:43 IST" duration-ms="2319" status="PASS">
+        <test-method signature="changeTimeZone()[pri:4, instance:com.moxie.tastcases.MoxieChangeTime@1a04f701]" started-at="2020-10-27T12:20:44 IST" name="changeTimeZone" finished-at="2020-10-27T12:21:25 IST" duration-ms="40061" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: filter-option-inner' (tried for 5 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: filter-option-inner' (tried for 5 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.moxie.pages.BookingPageAfterLogin.selectTime(BookingPageAfterLogin.java:27)
+at com.moxie.tastcases.MoxieChangeTime.changeTimeZone(MoxieChangeTime.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: .filter\-option\-inner
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-M9NR2LIP', ip: '192.168.43.249', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 82.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201014125134, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 12388, moz:profile: C:\Users\achat\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 114e0370-e328-4a0c-999b-17590325e816
+*** Element info: {Using=class name, value=filter-option-inner}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy14.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
             <line>
               <![CDATA[Running fourth test for changing timezone]]>
             </line>
           </reporter-output>
         </test-method> <!-- changeTimeZone -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@3456558]" started-at="2020-10-26T19:19:43 IST" name="tearDownMethod" finished-at="2020-10-26T19:19:43 IST" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@1a04f701]" started-at="2020-10-27T12:21:25 IST" name="tearDownMethod" finished-at="2020-10-27T12:21:25 IST" duration-ms="330" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=changeTimeZone status=SUCCESS method=MoxieChangeTime.changeTimeZone()[pri:4, instance:com.moxie.tastcases.MoxieChangeTime@3456558] output=Running fourth test for changing timezone]]]>
+                <![CDATA[[TestResult name=changeTimeZone status=FAILURE method=MoxieChangeTime.changeTimeZone()[pri:4, instance:com.moxie.tastcases.MoxieChangeTime@1a04f701] output=Running fourth test for changing timezone]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@3456558]" started-at="2020-10-26T19:19:43 IST" name="tearDown" finished-at="2020-10-26T19:19:44 IST" duration-ms="949" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@1a04f701]" started-at="2020-10-27T12:21:25 IST" name="tearDown" finished-at="2020-10-27T12:21:26 IST" duration-ms="1282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.moxie.tastcases.MoxieChangeTime -->
     </test> <!-- firefox -->
-    <test started-at="2020-10-26T19:16:55 IST" name="chrome" finished-at="2020-10-26T19:19:59 IST" duration-ms="183764">
-      <class name="com.moxie.tastcases.MoxieChangeTime">
-        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@52a33c3f]" started-at="2020-10-26T19:16:55 IST" name="setup" finished-at="2020-10-26T19:19:15 IST" duration-ms="140033" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="checkTypeIsWorking()[pri:1, instance:com.moxie.tastcases.MoxieChangeTime@52a33c3f]" started-at="2020-10-26T19:19:15 IST" name="checkTypeIsWorking" finished-at="2020-10-26T19:19:15 IST" duration-ms="234" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Running first test for Type check]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- checkTypeIsWorking -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@52a33c3f]" started-at="2020-10-26T19:19:15 IST" name="tearDownMethod" finished-at="2020-10-26T19:19:16 IST" duration-ms="593" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=checkTypeIsWorking status=SUCCESS method=MoxieChangeTime.checkTypeIsWorking()[pri:1, instance:com.moxie.tastcases.MoxieChangeTime@52a33c3f] output=Running first test for Type check]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method signature="selectFirstFlexPay()[pri:2, instance:com.moxie.tastcases.MoxieChangeTime@52a33c3f]" started-at="2020-10-26T19:19:16 IST" name="selectFirstFlexPay" finished-at="2020-10-26T19:19:45 IST" duration-ms="28958" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Running second test for finding first class with Flex pay option]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- selectFirstFlexPay -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@52a33c3f]" started-at="2020-10-26T19:19:45 IST" name="tearDownMethod" finished-at="2020-10-26T19:19:45 IST" duration-ms="388" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=selectFirstFlexPay status=SUCCESS method=MoxieChangeTime.selectFirstFlexPay()[pri:2, instance:com.moxie.tastcases.MoxieChangeTime@52a33c3f] output=Running second test for finding first class with Flex pay option]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method signature="loginForBookingPage()[pri:3, instance:com.moxie.tastcases.MoxieChangeTime@52a33c3f]" started-at="2020-10-26T19:19:45 IST" name="loginForBookingPage" finished-at="2020-10-26T19:19:55 IST" duration-ms="9296" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Running third test for successful login]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- loginForBookingPage -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@52a33c3f]" started-at="2020-10-26T19:19:55 IST" name="tearDownMethod" finished-at="2020-10-26T19:19:55 IST" duration-ms="503" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginForBookingPage status=SUCCESS method=MoxieChangeTime.loginForBookingPage()[pri:3, instance:com.moxie.tastcases.MoxieChangeTime@52a33c3f] output=Running third test for successful login]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method signature="changeTimeZone()[pri:4, instance:com.moxie.tastcases.MoxieChangeTime@52a33c3f]" started-at="2020-10-26T19:19:55 IST" name="changeTimeZone" finished-at="2020-10-26T19:19:58 IST" duration-ms="2478" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Running fourth test for changing timezone]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- changeTimeZone -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@52a33c3f]" started-at="2020-10-26T19:19:58 IST" name="tearDownMethod" finished-at="2020-10-26T19:19:58 IST" duration-ms="418" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=changeTimeZone status=SUCCESS method=MoxieChangeTime.changeTimeZone()[pri:4, instance:com.moxie.tastcases.MoxieChangeTime@52a33c3f] output=Running fourth test for changing timezone]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@52a33c3f]" started-at="2020-10-26T19:19:58 IST" name="tearDown" finished-at="2020-10-26T19:19:59 IST" duration-ms="811" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.moxie.tastcases.MoxieChangeTime -->
-    </test> <!-- chrome -->
-    <test started-at="2020-10-26T19:16:55 IST" name="edge" finished-at="2020-10-26T19:20:06 IST" duration-ms="190569">
-      <class name="com.moxie.tastcases.MoxieChangeTime">
-        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@40fa8766]" started-at="2020-10-26T19:16:55 IST" name="setup" finished-at="2020-10-26T19:19:26 IST" duration-ms="150422" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="checkTypeIsWorking()[pri:1, instance:com.moxie.tastcases.MoxieChangeTime@40fa8766]" started-at="2020-10-26T19:19:26 IST" name="checkTypeIsWorking" finished-at="2020-10-26T19:19:26 IST" duration-ms="379" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Running first test for Type check]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- checkTypeIsWorking -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@40fa8766]" started-at="2020-10-26T19:19:26 IST" name="tearDownMethod" finished-at="2020-10-26T19:19:27 IST" duration-ms="635" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=checkTypeIsWorking status=SUCCESS method=MoxieChangeTime.checkTypeIsWorking()[pri:1, instance:com.moxie.tastcases.MoxieChangeTime@40fa8766] output=Running first test for Type check]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method signature="selectFirstFlexPay()[pri:2, instance:com.moxie.tastcases.MoxieChangeTime@40fa8766]" started-at="2020-10-26T19:19:27 IST" name="selectFirstFlexPay" finished-at="2020-10-26T19:19:52 IST" duration-ms="25887" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Running second test for finding first class with Flex pay option]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- selectFirstFlexPay -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@40fa8766]" started-at="2020-10-26T19:19:52 IST" name="tearDownMethod" finished-at="2020-10-26T19:19:53 IST" duration-ms="443" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=selectFirstFlexPay status=SUCCESS method=MoxieChangeTime.selectFirstFlexPay()[pri:2, instance:com.moxie.tastcases.MoxieChangeTime@40fa8766] output=Running second test for finding first class with Flex pay option]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method signature="loginForBookingPage()[pri:3, instance:com.moxie.tastcases.MoxieChangeTime@40fa8766]" started-at="2020-10-26T19:19:53 IST" name="loginForBookingPage" finished-at="2020-10-26T19:20:02 IST" duration-ms="8696" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Running third test for successful login]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- loginForBookingPage -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@40fa8766]" started-at="2020-10-26T19:20:02 IST" name="tearDownMethod" finished-at="2020-10-26T19:20:02 IST" duration-ms="376" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginForBookingPage status=SUCCESS method=MoxieChangeTime.loginForBookingPage()[pri:3, instance:com.moxie.tastcases.MoxieChangeTime@40fa8766] output=Running third test for successful login]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method signature="changeTimeZone()[pri:4, instance:com.moxie.tastcases.MoxieChangeTime@40fa8766]" started-at="2020-10-26T19:20:02 IST" name="changeTimeZone" finished-at="2020-10-26T19:20:05 IST" duration-ms="2550" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Running fourth test for changing timezone]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- changeTimeZone -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@40fa8766]" started-at="2020-10-26T19:20:05 IST" name="tearDownMethod" finished-at="2020-10-26T19:20:05 IST" duration-ms="374" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=changeTimeZone status=SUCCESS method=MoxieChangeTime.changeTimeZone()[pri:4, instance:com.moxie.tastcases.MoxieChangeTime@40fa8766] output=Running fourth test for changing timezone]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.moxie.tastcases.MoxieChangeTime@40fa8766]" started-at="2020-10-26T19:20:05 IST" name="tearDown" finished-at="2020-10-26T19:20:06 IST" duration-ms="756" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.moxie.tastcases.MoxieChangeTime -->
-    </test> <!-- edge -->
   </suite> <!-- Suite -->
 </testng-results>

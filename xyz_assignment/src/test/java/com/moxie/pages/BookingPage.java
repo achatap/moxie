@@ -28,7 +28,7 @@ public class BookingPage {
 	@FindBy(xpath = "//button[@type='submit']") WebElement submitButton;
 	@FindBy(name = "password") WebElement password;
 	@FindBy(xpath = "//button[@type='submit']") WebElement finalSubmitButton;
-	@FindBy(xpath= "//div[contains(text(),'achatapnew@gmail.com')]") WebElement emailVerify;
+	@FindBy(id= "jLoggedInBar") WebElement emailVerify;
 
 
 	public void clickOnbookButton() {
@@ -59,7 +59,7 @@ public class BookingPage {
 	public boolean emailPresentOnPage() {
 		wait.until(ExpectedConditions.elementToBeClickable(emailVerify));
 		driver.navigate().refresh();
-		if(emailVerify.getText().contains(new ConfigDataProvider().getEmail())){
+		if(emailVerify.isDisplayed()){
 			return true;
 		}
 		return false;

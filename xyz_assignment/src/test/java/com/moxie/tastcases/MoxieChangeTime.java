@@ -88,6 +88,8 @@ public class MoxieChangeTime extends BaseClass {
 
 		Assert.assertEquals(page.verifyTimeZone(excel.getTimeZone(rowNumber)), true);
 		logger.pass("Timezone is successfully modified ");
+		
+		System.out.println("Modified time : "+ page.getModifiedTime());
 
 	}
 }

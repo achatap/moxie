@@ -31,7 +31,6 @@ public class MoxieChangeTime extends BaseClass {
 	@Test(priority = 2, enabled = true)
 	public void selectFirstFlexPay() {
 
-
 		Reporter.log("Running second test for finding first class with Flex pay option");
 		logger= report.createTest("Testing first class with Flex pay option from Dereived list");
 
